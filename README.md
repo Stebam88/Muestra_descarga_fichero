@@ -1,2 +1,2 @@
 # Muestra_descarga_fichero
-En este requisito, se muestra o se descarga un archivo en el navegador
+"Muestra_fichero.php" toma un archivo PDF específico ($pdf_test), configura las cabeceras para indicar que se enviará un archivo PDF con un nuevo nombre de título ($nombre_titulo), y luego envía el contenido del archivo PDF original al navegador para su visualización en línea, además el script "descarga_fichero.php" utiliza la cabecera X-Sendfile para indicar al servidor web que debe servir el archivo PDF especificado en la variable $file. Luego, configura la cabecera de contenido para indicar que se trata de un archivo PDF y utiliza la función readfile para enviar el contenido del archivo PDF al navegador
